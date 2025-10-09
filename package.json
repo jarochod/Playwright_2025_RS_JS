@@ -1,0 +1,24 @@
+{
+  "name": "playwright_2025_rs_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "test:ci": "playwright test",
+    "ui": "playwright test --ui",
+    "debug": "playwright test --headed --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7",
+    "uuid": "^9.0.0"
+  }
+}
