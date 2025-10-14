@@ -21,6 +21,9 @@ trace.zip
 .env
 .env.*
 
+#Dockerfile teraz tylko lokalnie
+Dockerfile
+
 # --- Python ---
 __pycache__/
 *.pyc
