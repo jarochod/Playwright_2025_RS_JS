@@ -7,7 +7,7 @@ jobs:
   playwrighttests:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.54.2-focal
+      image: mcr.microsoft.com/playwright:v1.54.2-jammy
       env:
         ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
     steps:
