@@ -23,6 +23,7 @@ trace.zip
 
 #Dockerfile teraz tylko lokalnie
 Dockerfile
+docker-compose.yml
 
 # --- Python ---
 __pycache__/
