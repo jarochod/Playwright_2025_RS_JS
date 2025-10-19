@@ -1,0 +1,14 @@
+services:
+  playwright-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    # UWAGA: nie dodajemy tutaj "command:", żeby Docker Compose użył CMD z Dockerfile
+    volumes:
+      - ./playwright-report:/app/playwright-report
+    tty: true
+    restart: "no" # Jawne określenie polityki restartu
+    container_name: playwright-tests-runner # Ustawienie Nazwy Kontenera Jawnie
+
