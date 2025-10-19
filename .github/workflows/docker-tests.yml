@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  cypress-tests:
+  playwright-tests:
     runs-on: ubuntu-latest
 
     steps:
